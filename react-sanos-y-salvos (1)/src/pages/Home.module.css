@@ -1,0 +1,201 @@
+
+.heroSection {
+    padding: 20px 0;
+    background-color: #fff; 
+}
+
+.mainBanner {
+    background-color: #000000; 
+    color: white;
+    border-radius: 12px;
+    padding: 40px;
+    height: 500px; 
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainBannerImg {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    height: 90%; 
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.mainBanner:hover .mainBannerImg {
+    transform: scale(1.05);
+}
+
+
+.sideBannerTop {
+    background-color: #000000; 
+    border-radius: 12px;
+    padding: 30px;
+    height: 240px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideBannerBottom {
+    background-color: #000000; 
+    border-radius: 12px;
+    padding: 30px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideBannerImg {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 80%;
+    object-fit: contain;
+}
+
+/* --- TEXTOS --- */
+.tagline {
+    color: #ffffff;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.titleLarge {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    max-width: 60%;
+}
+
+.titleSmall {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    max-width: 60%;
+}
+
+/* --- BOTONES --- */
+.btnPrimary {
+    background-color: #b4a200; 
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: all 0.2s;
+}
+
+.btnPrimary:hover {
+    background-color: #eb2525;
+    transform: translateY(-2px);
+}
+
+.linkText {
+    color: #b4a200;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+.servicesBar {
+    margin-top: 40px;
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+}
+
+.serviceItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconBox {
+    font-size: 2rem;
+    color: #e7ff10;
+}
+
+
+@media (max-width: 992px) {
+    .mainBanner { height: 400px; margin-bottom: 20px; }
+    .mainBannerImg { height: 70%; opacity: 0.5; }
+    .titleLarge { max-width: 100%; font-size: 2.5rem; }
+}
+
+.goldDivider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    margin: 50px 0; 
+    opacity: 0.8;
+}
+
+
+.servicesBar {
+    padding: 20px 0 60px 0; 
+}
+
+.iconBox {
+    font-size: 2.5rem;
+    color: #d4af37; 
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background-color: #050505; 
+    color: #e0e0e0; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-top: 3px solid #d4af37; 
+    margin-top: auto; 
+}
+
+.footerTitle {
+    color: #d4af37; 
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.footerText {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footerText:hover {
+    color: #fff; 
+}
+
+.socialIcon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #d4af37;
+    cursor: pointer;
+}
