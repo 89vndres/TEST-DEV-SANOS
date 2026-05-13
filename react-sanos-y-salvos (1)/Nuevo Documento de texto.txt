@@ -1,0 +1,22 @@
+Instalar todo automáticamente (recomendado)
+
+Si tienes el archivo package.json, simplemente ejecuta:
+
+npm install
+
+
+Instalación manual de librerías
+
+Si necesitas agregar las dependencias manualmente una por una:
+
+Navegación y UI
+npm install react-router-dom react-bootstrap bootstrap
+
+Animaciones
+npm install framer-motion
+
+
+▶️
+ Ejecutar el Proyecto
+
+Para iniciar el servidor de desarrollo local:
